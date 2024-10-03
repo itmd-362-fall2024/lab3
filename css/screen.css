@@ -262,3 +262,6 @@ p {
   color: rgb(255, 255, 255);
 }
 
+#input-submit input:hover {
+  background-color: #525252;
+}
