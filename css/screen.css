@@ -242,9 +242,9 @@ p {
 
 #input-age-verification {
   display: flex;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0 15px 0;
 }
 
 #input-age-verification label {
@@ -258,7 +258,7 @@ p {
   border: none;
   padding: 10px;
   border-radius: 5px;
-  background-color: rgb(106, 106, 106);;
+  background-color: rgb(67, 67, 67);
   color: rgb(255, 255, 255);
 }
 
