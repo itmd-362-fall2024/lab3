@@ -208,6 +208,34 @@ label {
 /* ===== STATE STYLES ======= */
 
 form {
+  max-width: 500px;
   background-color: #eae8e8;
-  
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#input-email input {
+  width: 100%;
+  border: none;
+}
+
+#input-age-verification {
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#input-age-verification label {
+  margin-left: 10px;
+}
+
+#input-submit input {
+  width: 100%;
+  border: none;
+  padding: 10px;
 }
