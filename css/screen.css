@@ -233,7 +233,7 @@ p {
   margin-bottom: 10px;
 }
 
-#input-email input {
+input[type="email"] {
   width: 100%;
   border: none;
   border-radius: 5px;
@@ -253,7 +253,7 @@ p {
   margin: 5px;
 }
 
-#input-submit input {
+input[type="submit"] {
   width: 100%;
   border: none;
   padding: 10px;
@@ -262,6 +262,11 @@ p {
   color: rgb(255, 255, 255);
 }
 
-#input-submit input:hover {
+input[value='Subscribe'] {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+input[value='Subscribe']:hover {
   background-color: #525252;
 }
