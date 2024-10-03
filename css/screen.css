@@ -208,34 +208,57 @@ label {
 /* ===== STATE STYLES ======= */
 
 form {
+  font-family: "PT Sans", "Open Sans", sans-serif;
   max-width: 500px;
   background-color: #eae8e8;
   padding: 20px;
   border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(72, 72, 72, 0.1);
 }
 
 h1 {
   font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: rgb(67, 67, 67);
+}
+
+p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#input-email label {
+  margin-bottom: 10px;
 }
 
 #input-email input {
   width: 100%;
   border: none;
+  border-radius: 5px;
+  height: 40px;
 }
 
 #input-age-verification {
   display: flex;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 #input-age-verification label {
   margin-left: 10px;
+  font-size: 0.8em;
+  margin: 5px;
 }
 
 #input-submit input {
   width: 100%;
   border: none;
   padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(106, 106, 106);;
+  color: rgb(255, 255, 255);
 }
+
